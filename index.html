@@ -5,9 +5,13 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Company diagnosis</title>
 	<meta name="description" content="This is the Company diagnosis.">
-	<meta name="author" content="Elly">
+	<meta name="author" content="Erika K">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
 	#card {
 		margin: 20px auto;
 		width: 290px;
@@ -105,14 +109,14 @@
 			</div>
 		</li>
 	</ul>
-	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<script type="text/javascript">
-		let changeCard = function(){
-			let $card = $('#card li');
-			let $tmp = $('#card0');
+		var changeCard = function(){
+			var $card = $('#card li');
+			var $tmp = $('#card0');
 
 			$card.each(function(){
-				let $link = $(this).find('a');
+				var $link = $(this).find('a');
 				$link.on('click', function(){
 					$tmp.hide();
 					href = $(this).attr('href');
