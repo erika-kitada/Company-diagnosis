@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Company diagnosis</title>
+	<meta name="description" content="This is the Company diagnosis.">
+	<meta name="author" content="Erika K">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	#card {
+		margin: 20px auto;
+		width: 290px;
+	}
+	li {
+		display: none;
+		list-style-type: none;
+		height: 250px;
+		border: 1px solid #999;
+		border-radius: 2px;
+		padding: 10px 20px;
+		font-size: 14px;
+		color: #999;
+		background-color: #fff;
+	}
+	h2 {
+		font-size: 16px;
+	}
+	p {
+		margin: 0;
+		line-height: 1.6;
+	}
+	p + div {
+		margin-top: 15px;
+	}
+	div {
+		text-align: center;
+	}
+	a {
+		display: inline-block;
+		border: 1px solid #999;
+		border-radius: 20px;
+		padding: 10px;
+		min-width: 5em;
+		text-align: center;
+		text-decoration: none;
+		font-size: 18px;
+		color: #999;
+	}
+	a:hover {
+		background-color: #f2f2f2;
+	}
+	a + a {
+		margin-left: 10px;
+	}
+</style>
+</head>
+<body>
+<a href="" id="jsi-en">English</a>
+<ul id="card">
+  <li id="card0">
+    <h2>利益について</h2>
+    <p>A. 自社案件を充実させたいですか？</p>
+    <p>B. 外部派遣を充実させたいですか？</p>
+    <div>
+      <a href="#card1">A</a>
+      <a href="#card2">B</a>
+    </div>
+  </li>
+  <li id="card1">
+    <h2>労務について</h2>
+    <p>労働時間を健全にしたいですか？</p>
+    <div>
+      <a href="#card3">A. はい</a>
+      <a href="#card4">B. いいえ</a>
+    </div>
+  </li>
+  <li id="card2">
+    <h2>技術について</h2>
+    <p>社員のモチベーションをあげたいですか？</p>
+    <div>
+      <a href="#card5">A. はい</a>
+      <a href="#card4">B. いいえ</a>
+    </div>
+  </li>
+  <li id="card3">
+    <h2>改善策はこちら</h2>
+    <p>経験のある社員を自社に戻して高負荷がかかっている社員の負担を分散させましょう！</p>
+    <p>また、ある程度技術力のある社員には、研究テーマの開発や執筆、講演の準備などの時間を与えよう</p>
+    <div>
+      <a href="#card0">はじめに戻る</a>
+    </div>
+  </li>
+  <li id="card4">
+    <h2>改善策はありません</h2>
+    <p>このまま突き進みましょう</p>
+    <div>
+      <a href="#card0">はじめに戻る</a>
+    </div>
+  </li>
+  <li id="card5">
+    <h2>改善策はこちら</h2>
+    <p>先端技術をテーマにした勉強会や各々の現場で使っているフレームワークなどの共有・発表の場を設けよう！</p>
+    <div>
+      <a href="#card0">はじめに戻る</a>
+    </div>
+  </li>
+</ul>
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/info.js"></script>
+</body>
+</html>

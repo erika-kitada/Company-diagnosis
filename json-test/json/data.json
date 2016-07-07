@@ -1,0 +1,69 @@
+{"diagnosis": [
+
+{
+"title": "About the profit",
+"p1": "A. Do you want to improve the in-house project?",
+"p2": "B. Do you want to improve the dispatch destination?",
+"linkA": "#card1",
+"linkB": "#card2",
+"selectA": "A",
+"selectB": "B",
+"id": "card0"
+},
+
+{
+"title": "About the work",
+"p1": "Do you want to have healthy working time?",
+"p2": "",
+"linkA": "#card3",
+"linkB": "#card4",
+"selectA": "A. Yes",
+"selectB": "B. No",
+"id": "card1"
+},
+
+{
+"title": "About the technology",
+"p1": "Do you want to raise the employee's motivation?",
+"p2": "",
+"linkA": "#card5",
+"linkB": "#card4",
+"selectA": "A. Yes",
+"selectB": "B. No",
+"id": "card2"
+},
+
+{
+"title": "The solution",
+"p1": "You'd better come excellent employee back the office, and then you have to reduce heavy work loads which some employee have.",
+"p2": "You should give some times for R&D, writing and preparing for lecture to excellent employee.",
+"linkA": "#card0",
+"linkB": "",
+"selectA": "Back to TOP",
+"selectB": "",
+"id": "card3"
+},
+
+{
+"title": "The solution",
+"p1": "There is not any solution.",
+"p2": "Go ahead the way which you believe!",
+"linkA": "#card0",
+"linkB": "",
+"selectA": "Back to TOP",
+"selectB": "",
+"id": "card4"
+},
+
+{
+"title": "The solution",
+"p1": "Do you want to raise the employee's motivation?",
+"p2": "",
+"linkA": "#card0",
+"linkB": "",
+"selectA": "Back to TOP",
+"selectB": "",
+"id": "card5"
+}
+
+]}
